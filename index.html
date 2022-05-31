@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <title>피죤</title>
+    <!-- fullpage.css -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- 외부 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- 제이쿼리 fullpage.js -->
+    <script src="js/jquery.fullPage.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 외부 제이쿼리 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="ask"><a href="#">고객 서포터즈</a></div>
+            <div class="menu_btn">
+                <div id="nav-icon4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!-- 내비게이션(GNB-GLobal Navigation Bar) -->
+            <div class="gnb">
+                <div class="top_menu">
+                    <div class="search">
+                        <div class="search_input">
+                            <input type="text" placeholder="search" name="search" id="search">
+                        </div>
+                        <div class="search_btn">
+                            <a href="#">
+                                <img src="img/Search.png" alt="검색버튼">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <a href="#">KOREAN</a>
+                        <a href="#">ENGLISH</a>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">피죤의 제품</a>
+                            <ul class="sub">
+                                <li><a href="#">섬유유연제</a></li>
+                                <li><a href="#">섬유탈취제</a></li>
+                                <li><a href="#">세탁세제</a></li>
+                                <li><a href="#">세정제</a></li>
+                                <li><a href="#">주방세제</a></li>
+                                <li><a href="#">제습제</a></li>
+                                <li><a href="#">핸드케어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">피죤의 기술력</a>
+                            <ul class="sub">
+                                <li><a href="#">수상내역</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">지속가능성</a>
+                            <ul class="sub">
+                                <li><a href="#">지속가능성</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">피죤 소개</a>
+                            <ul class="sub">
+                                <li><a href="#">피죤 소개</a></li>
+                                <li><a href="#">피죤 철학</a></li>
+                                <li><a href="#">피죤 소식</a></li>
+                                <li><a href="#">채용정보</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">이벤트</a>
+                            <ul class="sub">
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section s1">
+            <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide main1"><a href="#"><img src="img/visual-1-logo.png" alt="logo"></a></div>
+                  <div class="swiper-slide main2">
+                      <h1>Luxurious Scent Made<br>At The Hands Of Top<br>PerFumners</h1>
+                      <p>고성축도 섬유유연제는 피존입니다.</p>
+                      <button>자세히 보기</button>
+                  </div>
+                  <div class="swiper-slide main3">
+                    <h1>Best Quality<br>Life Partner</h1>
+                    <p>모든 이들 혹은 누군가의 최적화된<br>생활 파트너로서 항상 함께하는 피죤</p>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="section s2">
+            <button>SINCE 1976</button>
+            <h2>행복한 삶을 창조하는<br>최상의 생활문화 파트너 피죤</h2>
+            <div class="addNumber">
+                <span></span>
+            </div>
+            <p>피죤 누적 판매량</p>
+        </section>
+        <section class="section s3">
+            <div class="s3_top">
+                <h2>사람들에게</h2>
+                <h1>"항기"를 남기다.</h1>
+                <button>피죤 전체메뉴 보기</button>
+                <p>더 깨끗한 제품으로, 더 자연에 가까운 제품으로,<br>피죤은 자연을 섬기겠습니다.</p>
+            </div>
+            <div class="s3_bottom">
+                <span>SINCE 1976</span>
+                <div id="addNumber"><h3></h3><i>th</i></div>
+            </div>
+        </section>
+        <section class="section s4">
+            <div class="s4_top">
+                <div class="line"></div>
+                <p>ENJOY SERVICE</p>
+                <h1>당신의 모든순간<br>피죤</h1>
+            </div>
+            <div class="s4_bottom">
+                <div class="s4_left">
+                    <a href="#">
+                        <div class="s4_left_ani">
+                            <img src="img/gift-icon.png" alt="선물">
+                        </div>
+                    </a>
+                    <p>카카오톡<span>선물하기</span></p>
+                </div>
+                <div class="s4_center"></div>
+                <div class="s4_right">
+                    <a href="#">
+                        <div class="s4_right_ani">
+                            <img src="img/delivery-icon.png" alt="배달">
+                        </div>
+                    </a>
+                    <p><span>배달</span>받기</p>
+                </div>
+            </div>
+        </section>
+        <section class="section s5">
+            <p>PIGEON CSR</p>
+            <h2>피죤이 만드는 세상</h2>
+            <span>식지 않는 뜨거운 진심으로 따듯한 오늘,<br>따뜻한 세상을 만듭니다.</span>
+            <div class="line"></div>
+            <a href="#"><img src="img/love-icon.png" alt="사랑"></a>
+        </section>
+        <section class="section s6">
+            <h1><p>PIGEON</p>SNS</h1>
+            <div class="sns">
+                <a href="#"><img src="img/sns1.jpg" alt="1"></a>
+                <a href="#"><img src="img/sns2.jpg" alt="2"></a>
+                <a href="#"><img src="img/sns3.jpg" alt="3"></a>
+                <a href="#"><img src="img/sns4.jpg" alt="4"></a>
+                <a href="#"><img src="img/sns5.jpg" alt="5"></a>
+                <a href="#"><img src="img/sns6.jpg" alt="6"></a>
+                <a href="#"><img src="img/sns7.jpg" alt="7"></a>
+                <a href="#"><img src="img/sns8.jpg" alt="8"></a>
+                <a href="#"><img src="img/sns9.jpg" alt="9"></a>
+            </div>
+            <div class="sns_icon">
+                <a href="#"><img src="img/sns-facebook.png" alt="facebook"></a>
+                <a href="#"><img src="img/sns-instrargram.png" alt="instargram"></a>
+                <a href="#"><img src="img/sns-youtube.png" alt="youtube"></a>
+            </div>
+        </section>
+        <section class="section s7">
+            <div class="s7_top">
+                <button>NEWS</button>
+                <h3>2022년 대한민국<br>브랜드스타(섬유유연제 부문-5년 연속)</h3>
+                <p>2022.05.24</p>
+            </div>
+            <div class="s7_bottom">
+                <div class="s7_left">
+                    <button>EVENT</button>
+                    <h4>&lt; 특명! 영탁을 찾아라! &gt;</h4>
+                    <a href="#"><img src="img/section-6_button.png" alt="button"></a>
+                </div>
+                <div class="s7_right">
+                    <button>EMPLOYMENT</button>
+                    <h4>PIGEON<br>채용정보<br>바로가기</h4>
+                    <a href="#"><img src="img/section-6_button.png" alt="button"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="section footer-wrap fp-auto-height">
+            <div class="footer">
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="#">마일리지 조회</a></li>
+                        <li><a href="#">인트라넷</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>(주)피죤서울특별시 강남구 논현로 531 (역삼동)<br>
+                        대표 : 이주연 사업자등록번호 : 122-81-11086<br>
+                        본사 : 02-3451-2000소비자센터 : 080-022-0841<br>
+                        개인정보처리방침<br>
+                        (c) 2018 <span>PIGEON</span> All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
