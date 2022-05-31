@@ -283,6 +283,9 @@ section{
 /* section s2 */
 .s2{
     background-image: url(../img/section-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     padding: 30px;
 }
@@ -315,6 +318,9 @@ section{
 /* section s3 */
 .s3{
     background-image: url(../img/section-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
 }
 .s3 .s3_top{
@@ -337,6 +343,7 @@ section{
     margin-bottom: 20px;
     letter-spacing: -1px;
     cursor: pointer;
+    border-radius: none;
 }
 .s3 .s3_top p{
     font-size: 17px;
@@ -380,6 +387,9 @@ section{
 /* section s4 */
 .s4{
     background-image: url(../img/section-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .s4 .line{
     width: 1px;
@@ -456,6 +466,9 @@ section{
 /* section s5 */
 .s5{
     background-image: url(../img/section-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
 }
@@ -488,6 +501,9 @@ section{
 /* section s6 */
 .s6{
     background-image: url(../img/section-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
 }
@@ -520,6 +536,9 @@ section{
     height: 500px;
     background-image: url(../img/section-6-top-bg.png.jpg);
     padding: 100px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .s7 .s7_top button{
     background-color: transparent;
@@ -555,6 +574,9 @@ section{
 .s7 .s7_bottom .s7_left{
     background-image: url(../img/section-6-left-bg.png);
     padding: 50px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .s7 .s7_bottom .s7_left button{
     background-color: transparent;
@@ -575,6 +597,9 @@ section{
 }
 .s7 .s7_bottom .s7_right{
     background-image: url(../img/section-6-right-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px 30px;
 }
 .s7 .s7_bottom .s7_right button{
