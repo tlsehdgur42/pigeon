@@ -344,6 +344,8 @@ section{
     letter-spacing: -1px;
     cursor: pointer;
     border-radius: none;
+    background-color: #fff;
+    border-radius: 0;
 }
 .s3 .s3_top p{
     font-size: 17px;
